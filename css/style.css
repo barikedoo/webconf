@@ -2,3 +2,10 @@
   margin: 0;
   padding: 0;
 }
+.container {
+  margin: 0 auto;
+  max-width: 940px;
+}
+header li {
+  display: inline!important;
+}
