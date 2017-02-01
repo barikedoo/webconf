@@ -1,11 +1,104 @@
+@font-face {
+  font-family: 'BebasNeueRegular';
+  src: url('fonts/bebasneue_regular-webfont.eot');
+  src: url('fonts/bebasneue_regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/bebasneue_regular-webfont.woff2') format('woff2'), url('fonts/bebasneue_regular-webfont.woff') format('woff'), url('fonts/bebasneue_regular-webfont.ttf') format('truetype'), url('fonts/bebasneue_regular-webfont.svg#svgFontName') format('svg');
+}
+@font-face {
+  font-family: 'HelveticaNueu';
+  src: url('fonts/helveticaneuecyr-medium.eot');
+  src: url('fonts/helveticaneuecyr-medium.eot?#iefix') format('embedded-opentype'), url('fonts/helveticaneuecyr-medium.woff2') format('woff2'), url('fonts/helveticaneuecyr-medium.woff') format('woff'), url('fonts/helveticaneuecyr-medium.ttf') format('truetype'), url('fonts/helveticaneuecyr-medium.svg#svgFontName') format('svg');
+}
+@font-face {
+  font-family: 'Sinhalamn';
+  src: url('fonts/sinhalamn-webfont.eot');
+  src: url('fonts/sinhalamn-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/sinhalamn-webfont.woff2') format('woff2'), url('fonts/sinhalamn-webfont.woff') format('woff'), url('fonts/sinhalamn-webfont.ttf') format('truetype'), url('fonts/sinhalamn-webfont.svg#svgFontName') format('svg');
+}
 * {
-  margin: 0;
-  padding: 0;
+  font-family: 'BebasNeueRegular';
 }
 .container {
   margin: 0 auto;
+  padding: 0;
   max-width: 940px;
 }
-header li {
-  display: inline!important;
+header .navbar-brand {
+  font-size: 72px;
+  font-family: 'Sinhalamn';
+  font-weight: 100;
+  color: #474747;
+  margin-top: 48px;
+}
+header .navbar-brand span {
+  color: #e37000;
+  font-family: 'Sinhalamn';
+}
+header .navbar-default {
+  background: #fff;
+  border: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+header .navbar-default .container-fluid {
+  padding: 0;
+}
+header .navbar-default li {
+  font-size: 25px;
+  line-height: 21px;
+  color: #474747;
+  text-transform: uppercase;
+  margin: 0 20px;
+}
+header .navbar-default li:last-child a {
+  padding-right: 0;
+}
+header .navbar-default .navbar-right {
+  margin-top: 57px;
+}
+header .navbar-default .active a {
+  background: transparent!important;
+}
+#fetured-work {
+  margin: 0;
+  padding: 0;
+}
+#fetured-work #featured-work-image img {
+  width: 100%;
+}
+#fetured-work #this-month {
+  width: 100%;
+  min-height: 80px;
+  margin-top: 19px;
+}
+#fetured-work #this-month #this-month-header {
+  background-color: rgba(68, 68, 68, 0.9);
+}
+#fetured-work #this-month #this-month-header h1 {
+  font-family: 'HelveticaNeue';
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 23px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  margin-top: 9px;
+}
+#fetured-work #this-month #this-month-header p {
+  font-family: 'HelveticaNeue';
+  color: #9a9a9a;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-top: 17px;
+  letter-spacing: 0.6px;
+  margin-bottom: 0;
+}
+#fetured-work #this-month #this-month-info p {
+  font-family: 'HelveticaNeue';
+  color: #474747;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  text-align: left;
+  margin: 20px 10px;
+  letter-spacing: 0.9px;
 }

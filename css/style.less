@@ -1,19 +1,166 @@
+// FONTS
+
+@font-face {
+  font-family: 'BebasNeueRegular';
+  src: url('fonts/bebasneue_regular-webfont.eot');
+  src: url('fonts/bebasneue_regular-webfont.eot?#iefix') format('embedded-opentype'), 
+       url('fonts/bebasneue_regular-webfont.woff2') format('woff2'), 
+       url('fonts/bebasneue_regular-webfont.woff') format('woff'), 
+       url('fonts/bebasneue_regular-webfont.ttf')  format('truetype'), 
+       url('fonts/bebasneue_regular-webfont.svg#svgFontName') format('svg'); 
+}
+
+@font-face {
+  font-family: 'HelveticaNueu';
+  src: url('fonts/helveticaneuecyr-medium.eot');
+  src: url('fonts/helveticaneuecyr-medium.eot?#iefix') format('embedded-opentype'), 
+       url('fonts/helveticaneuecyr-medium.woff2') format('woff2'), 
+       url('fonts/helveticaneuecyr-medium.woff') format('woff'), 
+       url('fonts/helveticaneuecyr-medium.ttf')  format('truetype'), 
+       url('fonts/helveticaneuecyr-medium.svg#svgFontName') format('svg'); 
+}
+
+@font-face {
+  font-family: 'Sinhalamn';
+  src: url('fonts/sinhalamn-webfont.eot');
+  src: url('fonts/sinhalamn-webfont.eot?#iefix') format('embedded-opentype'), 
+       url('fonts/sinhalamn-webfont.woff2') format('woff2'), 
+       url('fonts/sinhalamn-webfont.woff') format('woff'), 
+       url('fonts/sinhalamn-webfont.ttf')  format('truetype'), 
+       url('fonts/sinhalamn-webfont.svg#svgFontName') format('svg'); 
+}
+
+
 // COMMON STYLES
 
 * {
-    margin: 0;
-    padding: 0;
+    font-family: 'BebasNeueRegular';
 }
 
 .container {
     margin: 0 auto;
+    padding: 0;
     max-width: 940px;
 }
 
+@black:#474747;
+
+
+
 
 // HEADER
+
 header {
-     li {
-         display: inline!important;
-     }
+
+    .navbar-brand  {
+        font-size: 72px;
+        font-family: 'Sinhalamn';
+        font-weight: 100;
+        color: @black;
+        margin-top: 48px;
+
+        span {
+            color:#e37000;
+            font-family: 'Sinhalamn';
+        }
+    }
+
+    .navbar-default {
+        background: #fff;
+        border: none;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+
+            .container-fluid {
+                padding: 0;
+            }
+
+
+            li {
+                font-size: 25px;
+                line-height: 21px;
+                color: @black;
+                text-transform: uppercase;
+                margin: 0 20px;
+            }
+
+            li:last-child a {
+                padding-right: 0;
+            }
+
+            .navbar-right {
+                margin-top: 57px;
+            }
+
+          .active a {
+              background:transparent!important;
+          }
+            
+    }
+}
+
+// FEATURED-WORK
+
+#fetured-work {
+
+    margin: 0;
+    padding: 0;
+    
+    #featured-work-image img {
+        width: 100%;
+    }
+
+    #this-month {
+        width: 100%;
+        min-height: 80px;
+        margin-top: 19px;
+
+        #this-month-header {
+            background-color:  rgba(68, 68, 68, 0.9);
+
+
+            h1 {
+                font-family: 'HelveticaNeue';
+                color:  #ffffff;
+                text-transform: uppercase;
+                font-size: 23px;
+                font-weight: 500;
+                letter-spacing: 0.6px;
+                margin-top: 9px;
+                
+            }
+
+            p {
+                font-family: 'HelveticaNeue';
+                color:  #9a9a9a;
+                font-size: 14px;
+                font-weight: 500;
+                text-transform: uppercase;
+                padding-top: 17px;
+                letter-spacing: 0.6px;
+                margin-bottom: 0;
+            
+            }
+        }
+
+        #this-month-info {
+            p {
+            font-family: 'HelveticaNeue';
+            color:  @black;
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 15px;
+            text-align: left;
+            margin: 20px 10px;
+            letter-spacing: 0.9px;
+        }
+        }
+
+        
+
+    }
+
+
+    
 }
