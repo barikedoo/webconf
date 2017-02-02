@@ -142,4 +142,89 @@ header .navbar-default .active a {
 #articles p {
   font-size: 13px;
   line-height: 19px;
+  margin-bottom: 6px;
+}
+#articles a {
+  color: #474747;
+}
+#articles a:hover {
+  text-decoration: none;
+}
+#articles .find-more {
+  padding-left: 30px;
+  background: url(../img/icon-more.jpg) 2px 2px no-repeat;
+}
+#spotlights {
+  padding: 0 0;
+}
+#spotlights #spotlights-header {
+  margin-top: 74px;
+  margin-bottom: 19px;
+  text-align: center;
+  background: url(../img/head-bg.jpg);
+}
+#spotlights #spotlights-header h1 {
+  color: #474747;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 27px;
+  display: inline;
+  padding: 2px 50px;
+  background: #fff;
+}
+#spotlights article {
+  padding: 0 10px;
+}
+#spotlights article img {
+  width: 100%;
+}
+#spotlights h3 {
+  margin-top: 12px;
+  color: #414141;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 18px;
+}
+#spotlights article:nth-child(1) h3 {
+  margin-left: 5px;
+}
+#spotlights article:nth-child(4) h3 {
+  margin-left: -2px;
+}
+#spotlights p {
+  color: #414141;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  margin-bottom: 5px;
+}
+#spotlights a {
+  color: #474747;
+  font-size: 13px;
+}
+#spotlights a:hover {
+  text-decoration: none;
+}
+#spotlights .proj-view {
+  padding-left: 34px;
+  background: url(../img/icon-more.jpg) 6px 3px no-repeat;
+}
+#speakers {
+  padding: 0;
+  margin: 0;
+}
+#speakers h1 {
+  margin-top: 74px;
+  margin-bottom: 19px;
+  text-align: center;
+  background: url(../img/head-bg.jpg);
+}
+#speakers h1 h1 {
+  color: #474747;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 27px;
+  display: inline;
+  padding: 2px 50px;
+  background: #fff;
 }
