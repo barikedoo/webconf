@@ -213,13 +213,13 @@ header .navbar-default .active a {
   padding: 0;
   margin: 0;
 }
-#speakers h1 {
-  margin-top: 74px;
+#speakers #speakers-header {
+  margin-top: 70px;
   margin-bottom: 19px;
   text-align: center;
   background: url(../img/head-bg.jpg);
 }
-#speakers h1 h1 {
+#speakers #speakers-header h1 {
   color: #474747;
   font-size: 24px;
   font-weight: 400;
@@ -227,4 +227,133 @@ header .navbar-default .active a {
   display: inline;
   padding: 2px 50px;
   background: #fff;
+}
+#speakers #speakers-images img {
+  display: block;
+  margin: 0 auto;
+}
+#speakers #speakers-images h3 {
+  margin-top: 15px;
+  color: #414141;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 18px;
+  text-align: center;
+}
+#speakers #speakers-images p {
+  color: #414141;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+footer.container-fluid {
+  background: #faa95b;
+  margin-top: 66px;
+}
+footer.container-fluid div {
+  padding: 0;
+}
+footer.container-fluid h1 {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 400;
+}
+footer.container-fluid #text-widget p {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  display: block;
+  max-width: 169px;
+}
+footer.container-fluid #links-widget h1 {
+  padding-left: 8px;
+}
+footer.container-fluid #links-widget ul {
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 24px;
+  padding-left: 0;
+  list-style-type: none;
+}
+footer.container-fluid #links-widget ul li:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #12501b;
+  background: -webkit-linear-gradient(90deg, #2c973b 0%, #39b54a 100%);
+  background: -moz-linear-gradient(90deg, #2c973b 0%, #39b54a 100%);
+  background: -o-linear-gradient(90deg, #2c973b 0%, #39b54a 100%);
+  background: -ms-linear-gradient(90deg, #2c973b 0%, #39b54a 100%);
+  background: linear-gradient(0deg, #2c973b 0%, #39b54a 100%);
+  width: 8px;
+  height: 8px;
+  margin-left: 6px;
+  margin-right: 9px;
+}
+footer.container-fluid #twitter-widget h1 {
+  padding-left: 13px;
+}
+footer.container-fluid #twitter-widget #bird {
+  background: url(../img/bird-background.png) 0 0 no-repeat;
+  max-width: 45px;
+  max-height: 40px;
+  display: block;
+  line-height: 60px;
+  text-align: center;
+  color: #fff;
+  float: left;
+  width: 100%;
+  z-index: 100;
+  position: relative;
+  margin-top: 12px;
+}
+footer.container-fluid #twitter-widget #message {
+  display: block;
+  border: 1px solid #094537;
+  border-radius: 6px;
+  background-color: #eebf31;
+  max-width: 244px;
+  max-height: 118px;
+  float: left;
+  margin-left: -5px;
+  z-index: 1;
+}
+footer.container-fluid #twitter-widget #message h4 {
+  color: #0f4f40;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  padding-left: 19px;
+  margin-bottom: -2px;
+}
+footer.container-fluid #twitter-widget #message p {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  padding: 3px 15px;
+  margin-bottom: 40px;
+}
+footer.container-fluid #twitter-widget #bird-message {
+  margin-top: 17px;
+  margin-left: 13px;
+}
+footer.container-fluid #form-widget {
+  padding-left: 17px;
+}
+footer.container-fluid #form-widget input,
+footer.container-fluid #form-widget textarea {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #02241c;
+  background-color: #ffffff;
+  width: 211px;
+  height: 34px;
+  margin-top: 8px;
+}
+footer.container-fluid #form-widget textarea {
+  height: auto;
 }

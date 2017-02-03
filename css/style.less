@@ -322,16 +322,18 @@ header {
 
 // SPEAKERS
 
-#speakers {
+#speakers  {
 
     padding: 0;
     margin: 0;
-    
-    h1 {
-        margin-top: 74px;
+
+    #speakers-header {
+
+        margin-top: 70px;
         margin-bottom: 19px;
         text-align: center;
         background: url(../img/head-bg.jpg);
+        
             
         h1 {
             color:  #474747;
@@ -343,4 +345,177 @@ header {
             background: #fff;
         }
     }
+        
+        #speakers-images {
+
+            img {
+                display: block;
+                margin: 0 auto;
+                }
+            
+            h3 {
+                margin-top: 15px;
+                color:  #414141;
+                font-size: 20px;
+                font-weight: 100;
+                line-height: 18px;
+                text-align: center;
+            }
+
+            p {
+                color:  #414141;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 18px;
+            }
+    
+    }
 }
+
+// footer
+
+footer.container-fluid {
+        background: #faa95b;
+        margin-top: 66px;
+
+            div {
+                padding: 0;
+            }
+
+            h1 {
+                color:  #000000;
+                font-size: 20px;
+                font-weight: 400;
+            }
+
+            #text-widget {
+
+                p {
+                    color: #ffffff;
+                    font-size: 12px; 
+                    font-weight: 400;
+                    line-height: 22px;
+                    display: block;
+                    max-width: 169px; 
+                }
+            }
+
+            #links-widget {
+
+                    h1 {
+                        padding-left: 8px;
+                    }
+
+                    ul {
+                        color:  #ffffff;
+                        font-size: 13px;
+                        line-height: 24px;
+                        padding-left: 0;
+                        list-style-type: none;
+
+                            li:before {
+                                content: "";
+                                display: inline-block;
+                                border-radius: 50%;
+                                border-style: solid;
+                                border-width: 1px;
+                                border-color:  rgba(18, 80, 27, 72);
+                                background: -webkit-linear-gradient(90deg, #2c973b 0%, #39b54a 100%);
+                                background: -moz-linear-gradient(90deg, #2c973b 0%, #39b54a 100%);
+                                background: -o-linear-gradient(90deg, #2c973b 0%, #39b54a 100%);
+                                background: -ms-linear-gradient(90deg, #2c973b 0%, #39b54a 100%);
+                                background: linear-gradient(0deg, #2c973b 0%, #39b54a 100%);
+                                width: 8px;
+                                height: 8px;
+                                margin-left: 6px;
+                                margin-right: 9px;
+                            } 
+                            
+                    }
+
+                    
+                    
+            }
+
+            #twitter-widget {
+
+                h1 {
+                    padding-left: 13px;
+                }
+
+                #bird {
+                    background: url(../img/bird-background.png) 0 0 no-repeat;
+                    max-width: 45px;
+                    max-height: 40px;
+                    display: block;
+                    line-height: 60px;
+                    text-align: center;
+                    color: #fff;
+                    float: left;
+                    width:100%;
+                    z-index: 100;
+                    position: relative;
+                    margin-top: 12px;
+
+                    
+                    
+                }
+
+                #message {
+                    display: block;
+                    border: 1px solid rgba(9, 69, 55, 56);
+                    border-radius: 6px;
+                    background-color:  #eebf31;
+                    max-width: 244px;
+                    max-height: 118px;
+                    float:left;
+                    margin-left: -5px;
+                    z-index: 1;
+
+                        h4 {
+                            color:  #0f4f40;
+                            font-size: 12px;
+                            font-weight: 400;
+                            line-height: 22px;
+                            padding-left: 19px;
+                            margin-bottom: -2px;
+                        }
+
+                        p {
+                            color:  #ffffff;
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 22px;
+                            padding: 3px 15px;
+                            margin-bottom: 40px;
+                        }
+
+
+                }
+
+                #bird-message {
+                    margin-top: 17px;
+                    margin-left: 13px;
+                }
+            }
+
+            #form-widget {
+                padding-left: 17px;
+
+                    input, textarea {
+                        border-style: solid;
+                        border-width: 1px;
+                        border-color:  rgba(2, 36, 28, 56);
+                        background-color:  #ffffff;
+                        width: 211px;
+                        height: 34px;
+                        margin-top:8px;
+                        // box-shadow: 
+                    }
+
+                    textarea {
+                        height: auto;
+                    }
+            }
+            
+    }
